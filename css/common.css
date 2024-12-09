@@ -1,7 +1,9 @@
 body {
-    color: #333333;
+    color: #444444;
     line-height: 1;
 }
+
+
 
 .inner {
     max-width: 1170px;
@@ -9,13 +11,16 @@ body {
 }
 
 @media (max-width:1200px) {
-    inner {
+    .inner {
         max-width: 1170px;
         margin: 0 auto;
 
         margin: 0 15px;
     }
 }
+
+
+
 
 .default {
     padding: 120px 0;
@@ -27,7 +32,7 @@ body {
     margin-bottom: 40px;
 }
 
-.default.title h2 {
+.default .title h2 {
     font-size: 32px;
     font-weight: 700;
 }
@@ -44,11 +49,12 @@ body {
     }
 
     .default .title {
-        max-width: 1170;
+        max-width: 1170px;
         margin: 0 auto;
 
         margin: 0 15px;
         margin-bottom: 40px;
+
 
     }
 
